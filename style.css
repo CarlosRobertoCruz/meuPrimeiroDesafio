@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    max-width: 1200px;
+    background-color: white;
+    flex-direction: column;
+    margin: auto;
+}
+
+.pai_card{
+    max-width: 1200px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 10px 20px;
+    line-height: 80px;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+h1{
+    color: #660027;
+    font-size: 36px;
+}
+
+.paragrafos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+    color: #6C6969;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#pai_card{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 100px;
+}
+
+.div_card{
+    width: 250px;
+    height: 410px;
+    border: 1px solid #9E9B9B;
+    margin-left: 28px;
+    margin-right: 25px;
+}
+
+.h2_card{
+    color: #660027;
+}
+
+.card{
+    margin-left: 28px;
+    margin-right: 25px;
+}
+
+.saiba{
+    border: 2px solid #660027;
+    border-radius: 4px;
+    width: 128px;
+    height: 42px;
+    cursor: pointer;
+    background-color: white;
+    color: #660027;
+    font-size: 14px;
+    line-height: 10x;
+}
+
+.saiba:hover{
+    color: white;
+    background-color: #3f031a;
+}
+
+.fim{
+    display: flex; align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #660027;
+    margin-top: 72px;
+}

@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: flex;
+    width: 1200px;
+    background-color: white;
+    flex-direction: column;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 10px 20px;
+    line-height: 80px;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+
+.div_pai{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form_pai{
+    width: 780px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset{
+    width: 780px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+h1{
+    color: #660027;
+    height: 42px;
+    width: 128px;
+    margin-bottom: 21px;
+    font-size: 36px;
+}
+
+.barra_de_texto{
+    width: 400px;
+    height: 42px;
+    border: 1px solid #660027;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    
+}
+
+.infos{
+    font-family: Roboto;
+    color: #7B7676;
+    display: flex;
+}
+
+
+
+.mensagem{
+    border-radius: 5px;
+    border: 1px solid #660027;
+    height: 125px;
+    width: 400px;
+    margin-bottom: 40px;
+    resize: none;
+}
+
+.enviar{
+    color: white;
+    background-color: #660027;
+    font-size: 24px;
+    width: 128px;
+    height: 42px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.enviar:hover{
+    color: #ffffff;
+    background-color: rgb(56, 231, 231);
+}
+
+.div_filho{
+    width: 400px;
+    height: 700px;
+    margin-left: 19px;
+    background-color: #660027;
+}
+
+.div_neto{
+    color: white;
+    margin-top: 287px;
+    margin-bottom: 299px;
+    width: 401px;
+    height: 114px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fim{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #660027;
+    margin-top: 72px;
+    display: none;
+}
+
+

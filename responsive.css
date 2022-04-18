@@ -1,0 +1,95 @@
+header nav,
+header nav ul{
+    flex-wrap: wrap;
+    width: 100;
+}
+
+
+/* Celular */
+@media(max-width:600px){
+   
+    header nav,
+    header nav ul{
+        flex-direction: column;    
+        width: 100%; 
+        display: flex;
+        
+        
+    }
+
+    .logo{
+        height: 70px;
+        width: 155px;
+    }
+
+    #banner{
+        display: none
+    }
+
+    #topo{
+        margin-top: 60px;
+    }
+
+    header nav{
+        margin-top: 58px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .paragrafo{
+        flex-direction: column;    
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        justify-items: auto;
+        
+    }
+
+    #pai_card{
+        display: flex;
+        flex-direction: column;    
+        text-align: center;
+    }
+
+    .div_card{
+        margin-bottom: 42px;
+    }
+
+}
+
+
+/* Tablet */
+@media(max-width:768px){
+
+    .logotipo{
+        margin-bottom: 80px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
+    .inicial{
+        margin-top: 60px;
+    }
+
+     
+    h1{
+        display: none;
+    }
+
+    #banner{
+        display: none;
+    }
+
+    #pai_card{
+        display: flex;    
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .div_card{
+        margin-bottom: 38px;
+    }
+
+}

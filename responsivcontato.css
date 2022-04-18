@@ -1,0 +1,174 @@
+/* Tablet */
+@media(max-width:768px){
+    main{
+        width: 720px;
+        height: 970px;
+        margin: auto;
+    }
+
+    header{
+        max-width: 768px;
+        margin-top: 30px;
+    }
+
+    li{
+        height: 20px;
+    }
+
+    #li_contato{
+        margin-bottom: 57px;
+        align-items: baseline;
+    }
+
+    .infos{
+        font-size: 14px;
+    }
+
+    .contatos{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .inicial{
+        margin-top: 60px;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .form_pai{
+        width: 320px;
+        height: 700px;
+    }
+
+    fieldset{
+        width: 328px;
+        height: 700px;
+    }
+
+    .barra_de_texto{
+        width: 263px;
+        height: 42px;
+        border: 1px solid #660027;
+        border-radius: 5px;
+        margin-bottom: 35px;
+    }
+    .mensagem{
+        width: 263px;
+        height: 125px;
+        border-radius: 5px;
+        margin-bottom: 35px;
+    }
+
+    .enviar{
+        font-size: 14px;
+        width: 128px;
+        height: 42px;
+        border-radius: 5px;
+        margin-bottom: 69px;
+    }
+
+    .div_pai{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        
+    }
+
+    .div_filho{
+        width: 256px;
+        height: 700px;
+        background-color: #660027;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .div_neto{
+        color: white;
+        margin-top: 287px;
+        margin-bottom: 299px;
+        width: 234px;
+        height: 78px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
+
+/* celular */
+@media(max-width:360px){
+    header nav,
+    header nav ul{
+        flex-direction: column;    
+        display: flex;
+        align-items: center;
+        width: 155px;
+    }
+
+    main{
+       max-width: 320px;
+       margin: auto;
+    }
+
+    #banner{
+        display: none;
+    }
+
+    #topo{
+        margin-top: 60px;
+    }
+
+    header nav{
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .form_pai{
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    fieldset{
+        max-width: 300px;
+        margin-bottom: 40px;
+        
+    }
+
+    .infos{
+        max-width: 120px;
+        max-height: 16px;
+        margin-left: 8px;
+    }
+
+    .barra_de_texto{
+        max-width: 263px;
+        max-height: 42px;
+        margin-left: 8px;
+    }
+
+    .mensagem{
+        max-width: 263px;
+        max-height: 125px;
+        margin-left: 8px;
+    }
+
+    .div_filho{
+        display: none;
+    }
+
+    .fim{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        background-color: #660027;
+        margin-top: 72px;
+        height: 130px;
+        justify-content: center;
+    }
+}
